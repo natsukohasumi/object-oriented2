@@ -3,7 +3,6 @@ package sample;
 public class Main {
 
     public static void main(String[] args) {
-        // Manager manager = new Manager();
 
         Manager[] managers = new Manager[3];
 
@@ -26,10 +25,6 @@ public class Main {
         managers[2].setSalary(85000.0);
         managers[2].setDepartment("HR");
 
-
-        // manager[0] = ("Taro Yamada", 101, 80000.0, "Sales" );
-        // manager[1] = ("Hanako Suzuki", 102, 90000.0, "Marketing");
-        // manager[2] = ("Ichiro Tanaka", 103, 85000.0, "HR" );
 
         for (Manager manager: managers){
             System.out.println("Name: " + manager.getName());
